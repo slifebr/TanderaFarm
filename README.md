@@ -1,4 +1,4 @@
 # TanderaFarm
 
-Java Swing 
+Java 
 Framework: OpenSwing
