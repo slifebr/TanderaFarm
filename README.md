@@ -1,6 +1,6 @@
 TanderaFarm: 
   É uma aplicação de gestão de fazenda de gado.
-  Com um front-end Swing, utilizando o framework Openswing, do Mauro Camiel, que permite 
+  Com um front-end Swing, utilizando o framework Openswing, do Mauro Carniel, que permite 
   que se desenvolva uma GUI em tempo muito mais reduzido.
   
 Arquitetura:
