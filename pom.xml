@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.tandera</groupId>
+    <artifactId>TanderaFarm</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <openswing.version>2.4.7</openswing.version>
+    </properties>
+    
+    <repositories>
+        <repository>
+            <id>localrepository</id>
+            <url>file://SERVIDOR-AD\Arquivos\TI\RepositorioMaven</url>
+        </repository>
+    </repositories>
+   
+    <dependencies>
+
+        <!-- openswing -->
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>BeanInfo</artifactId>
+            <version>${openswing.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>clientos</artifactId>
+            <version>${openswing.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>commonos</artifactId>
+            <version>${openswing.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>hessian</artifactId>
+            <version>3.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>iText</artifactId>
+            <version>2.1.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>iText-rtf</artifactId>
+            <version>2.1.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>jcalendar</artifactId>
+            <version>${openswing.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>poi</artifactId>
+            <version>2.0-RC2-20040102</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>pooler</artifactId>
+            <version>${openswing.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>serveros</artifactId>
+            <version>${openswing.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>jnlp-servlet</artifactId>
+            <version>${openswing.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>jnlp</artifactId>
+            <version>${openswing.version}</version>
+        </dependency>    
+        
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>srcclientos</artifactId>
+            <version>${openswing.version}</version>
+        </dependency>    
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>srccommonos</artifactId>
+            <version>${openswing.version}</version>
+        </dependency>  
+        <dependency>
+            <groupId>org.openswing</groupId>
+            <artifactId>srcserveros</artifactId>
+            <version>${openswing.version}</version>
+        </dependency>                                               
+        <!-- fim openswing -->
+        
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.11</version>
+        </dependency>
+
+
+    </dependencies>
+   
+</project>
